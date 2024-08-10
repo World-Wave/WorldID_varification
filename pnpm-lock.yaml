@@ -23,9 +23,6 @@ importers:
       '@wagmi/core':
         specifier: ^2.6.9
         version: 2.13.3(@tanstack/query-core@5.51.21)(@types/react@18.3.3)(react@18.2.0)(typescript@5.5.4)(viem@2.19.2(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.23.8))
-      autoprefixer:
-        specifier: 10.4.14
-        version: 10.4.14(postcss@8.4.31)
       axios:
         specifier: ^1.7.3
         version: 1.7.3
@@ -53,9 +50,6 @@ importers:
       next-auth:
         specifier: ^4.24.7
         version: 4.24.7(next@13.5.6(@babel/core@7.25.2)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      postcss:
-        specifier: ^8.4.23
-        version: 8.4.31
       postcss-load-config:
         specifier: ^6.0.1
         version: 6.0.1(jiti@1.21.6)(postcss@8.4.31)(yaml@2.5.0)
@@ -74,9 +68,6 @@ importers:
       react-router-dom:
         specifier: ^6.25.0
         version: 6.26.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      tailwindcss:
-        specifier: ^3.4.9
-        version: 3.4.9
       viem:
         specifier: ^2.8.16
         version: 2.19.2(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.23.8)
@@ -87,6 +78,15 @@ importers:
         specifier: ^4.11.1
         version: 4.11.1(bufferutil@4.0.8)(typescript@5.5.4)(utf-8-validate@5.0.10)(zod@3.23.8)
     devDependencies:
+      autoprefixer:
+        specifier: 10.4.14
+        version: 10.4.14(postcss@8.4.31)
+      postcss:
+        specifier: ^8.4.31
+        version: 8.4.31
+      tailwindcss:
+        specifier: ^3.4.9
+        version: 3.4.9
       typescript:
         specifier: ^5.4.3
         version: 5.5.4
