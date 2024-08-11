@@ -33,7 +33,9 @@ export const authOptions: NextAuthOptions = {
       return token;
     },
   },
-  debug: true,
+  secret: process.env.NEXTAUTH_SECRET,
+  debug: process.env.NODE_ENV === "development",
+  // debug: true,
 };
 
 export default NextAuth(authOptions);

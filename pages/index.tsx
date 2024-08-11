@@ -79,7 +79,7 @@ export default function EnhancedWorldIDVerification() {
               />
             )}
             <div className="user-details">
-              <small className="user-label">Signed in as</small>
+              <small className="user-label">Your WorldID</small>
               <strong className="user-name">{session.user.email ?? session.user.name}</strong>
             </div>
           </div>
